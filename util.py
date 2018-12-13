@@ -159,7 +159,7 @@ def info():
 
     with open('/opt/instavpn/server/credentials.json') as f:
         json_data = json.load(f)
-        logger.info('Browse web UI at http://' + urllib2.urlopen("http://myip.dnsdynamic.org/").read() + ':8080/')
+        logger.info('Browse web UI at http://' + urllib2.urlopen("http://ident.me/").read() + ':8080/')
         logger.info("  Username: {}".format(json_data["admin"]["login"]))
         logger.info("  Password: {}".format(json_data["admin"]["password"]))
 
