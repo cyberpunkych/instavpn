@@ -136,7 +136,7 @@ def webui():
         return False
 
     logger.debug('Install node_modules')
-    if not run_command("cd /opt/instavpn && npm install"):
+    if not run_command("cd /opt/instavpn && npm config set strict-ssl false && npm install"):
         return False
 
     logger.debug('Copy upstart script')
