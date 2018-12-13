@@ -8,7 +8,7 @@
 * 512 MB RAM
 
 ### Install
-##### `curl -sS https://raw.githubusercontent.com/sockeye44/instavpn/master/instavpn.sh | sudo bash`
+##### `curl -sS https://raw.githubusercontent.com/cyberpunkych/instavpn/master/instavpn.sh | sudo bash`
 
 ### Web UI
 Browse at http://IP-ADDRESS:8080
@@ -25,4 +25,3 @@ Browse at http://IP-ADDRESS:8080
 * `instavpn web mode [on|off]` - Turn on/off web UI
 * `instavpn web set <username> <password>` - Set username/password for web UI
 
-[![Build Status](https://semaphoreapp.com/api/v1/projects/bbc573c4-5685-4e50-8552-eb5f1c9e53c8/302440/badge.png)](https://semaphoreapp.com/sockeye/instavpn)
